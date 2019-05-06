@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+            /*/***********************************/
+            div.pozitif4{
+                width: 200px;
+                height:100px;
+                margin-top: 30px;
+                background-color: aqua;
+                }
+            div.pozitif4:hover{
+                background-color: darkslategrey;
+                transform:scale(0.7,0.7);
+                transition-duration: 0.6s;
+            }
+
+
+
+
+            div.negatif4{
+                width: 200px;
+                height:100px;
+                margin-top: 30px;
+                animation-name: lol;
+                animation-duration: 5s;
+                background-color: cornflowerblue;
+                animation-iteration-count: infinite;
+                }
+            @keyframes lol{
+                0%{background-color: cornflowerblue;}
+               25%{background-color: crimson;}
+               50%{background-color: darkgoldenrod;}
+              100%{background-color: cornflowerblue;}
+            }
